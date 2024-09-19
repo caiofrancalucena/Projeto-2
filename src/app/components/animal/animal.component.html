@@ -1,0 +1,9 @@
+<section class="card-animal">
+    <section class="image-animal">
+        <img [src]="animalData.image" alt="Cachorro">
+    </section>
+    <section class="info-animal">
+        <p class="name">{{ animalData.name }}</p>
+    </section>
+    <a [routerLink]="['/detalhes', animalData.id]">Mais Informações</a>
+</section>
